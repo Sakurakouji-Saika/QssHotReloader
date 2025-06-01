@@ -7,7 +7,7 @@
   <a href="https://www.qt.io/">
     <img src="https://img.shields.io/badge/Qt-%3E%3D5.12-blue.svg?logo=qt&logoColor=white&style=flat-square" alt="Qt Version">
   </a>
-  <a href="https://github.com/yourusername/QtStyleLoaderPro">
+  <a href="https://github.com/Sakurakouji-Saika/QtStyleLoaderPro">
     <img src="https://img.shields.io/badge/Platform-Windows%20%7C%20Linux%20%7C%20macOS-blue?style=flat-square" alt="Platform">
   </a>
 </p>
