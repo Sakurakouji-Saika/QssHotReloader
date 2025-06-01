@@ -1,10 +1,16 @@
 # QtStyleLoaderPro - Advanced Qt Stylesheet Loader
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
-[![Qt Version](https://img.shields.io/badge/Qt-%3E%3D5.12-blue.svg?logo=qt&logoColor=white&style=flat-square)](https://www.qt.io/)
-
-[![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux%20%7C%20macOS-blue?style=flat-square)](https://github.com/yourusername/QtStyleLoaderPro)
+<p align="center">
+  <a href="https://opensource.org/licenses/MIT">
+    <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT">
+  </a>
+  <a href="https://www.qt.io/">
+    <img src="https://img.shields.io/badge/Qt-%3E%3D5.12-blue.svg?logo=qt&logoColor=white&style=flat-square" alt="Qt Version">
+  </a>
+  <a href="https://github.com/yourusername/QtStyleLoaderPro">
+    <img src="https://img.shields.io/badge/Platform-Windows%20%7C%20Linux%20%7C%20macOS-blue?style=flat-square" alt="Platform">
+  </a>
+</p>
 
 **QtStyleLoaderPro** 是一个强大的 Qt 样式表加载工具，支持动态热重载和调试功能，专为高效 Qt 应用程序开发而设计。
 
@@ -80,23 +86,7 @@ StyleLoader::setDebugResourceRoot("/path/to/your/styles/");
    #include "StyleLoader.h"
    ```
 
-### 安装步骤 (CMake)
 
-1. 将文件添加到项目：
-   
-   ```cmake
-   add_library(StyleLoader STATIC
-       StyleLoader.h
-       StyleLoader.cpp
-   )
-   
-   target_link_libraries(your_target PRIVATE StyleLoader)
-   ```
-2. 在代码中包含头文件：
-   
-   ```cpp
-   #include "StyleLoader.h"
-   ```
 
 ## 调试技巧
 
